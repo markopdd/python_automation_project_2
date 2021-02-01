@@ -10,23 +10,23 @@ class BaseClass:
     def __init__(self, driver):
         self.driver = driver
 
-    def explicit_wait(self, time = 10):
-        return WebDriverWait(self.driver, time)
+    # def explicit_wait(self, time = 10):
+    #     return WebDriverWait(self.driver, time)
 
-    def do_click(self, by_locator, time):
-        self.explicit_wait(time).until(EC.visibility_of_element_located(by_locator)).click()
+    def do_click(self, by_locator):
+        WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(by_locator)).click()
 
-    def do_send_text(self, by_locator, text, time):
-        self.explicit_wait(time).until(EC.visibility_of_element_located(by_locator)).send_keys(text)
+    def do_send_text(self, by_locator, text):
+        WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(by_locator)).send_keys(text)
 
-    def get_element_text(self, by_locator, time):
-        element = self.explicit_wait(time).until(EC.visibility_of_element_located(by_locator))
+    def get_element_text(self, by_locator):
+        element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(by_locator))
         return element.text
 
-    def get_is_visible(self, by_locator, time):
-        element = self.explicit_wait(time).until(EC.visibility_of_element_located(by_locator))
+    def get_is_visible(self, by_locator):
+        element = WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(by_locator))
         return bool(element)
 
-    def get_title(self, title, time):
-        self.explicit_wait(time).until(EC.title_is(title))
+    def get_title(self, title):
+        WebDriverWait(self.driver, 10).until(EC.title_is(title))
         return self.driver.title

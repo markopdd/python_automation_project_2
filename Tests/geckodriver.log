@@ -1,0 +1,33 @@
+1612214861297	geckodriver	INFO	Listening on 127.0.0.1:54754
+1612214862865	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0h/94dx92597cgcmh5sy7vc6y0h0000gn/T/rust_mozprofileNVKj5x"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612214904287	Marionette	INFO	Listening on port 54778
+1612214904767	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612214917462	Marionette	INFO	Stopped listening on port 54778
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612215209409	geckodriver	INFO	Listening on 127.0.0.1:56630
+1612215210295	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0h/94dx92597cgcmh5sy7vc6y0h0000gn/T/rust_mozprofileqXxHed"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612215220862	Marionette	INFO	Listening on port 56645
+1612215221011	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612215235549	Marionette	INFO	Stopped listening on port 56645
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612215320838	geckodriver	INFO	Listening on 127.0.0.1:57245
+1612215321205	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/0h/94dx92597cgcmh5sy7vc6y0h0000gn/T/rust_mozprofile2J4WgX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612215333093	Marionette	INFO	Listening on port 57260
+1612215333596	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612215352287	Marionette	INFO	Stopped listening on port 57260
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
